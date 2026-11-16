@@ -7,9 +7,7 @@ const Countries = ({ countries }) => {
   const [visitedCount, setVisitedCount] = useState([]);
 
   const handleVisitedCount = (country) => {
-    
     setVisitedCount([...visitedCount, country.name.common]);
-       
   };
 
   return (
